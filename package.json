@@ -1,0 +1,17 @@
+{
+  "name": "utils",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mystrdat/utils.git"
+  },
+  "author": "mystrdat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mystrdat/utils/issues"
+  },
+  "homepage": "https://github.com/mystrdat/utils#readme"
+}
