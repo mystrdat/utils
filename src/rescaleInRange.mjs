@@ -1,3 +1,3 @@
-export const rescaleInRange = (val, rangeA, rangeB) => {
-  return (val - rangeA[0]) * (rangeB[1] - rangeB[0]) / (rangeA[1] - rangeA[0]) + rangeB[0];
+export const rescaleInRange = (val, aMin, aMax, bMin, bMax) => {
+  return (val - aMin) * (bMax - bMin) / (aMax - aMin) + bMin;
 };
